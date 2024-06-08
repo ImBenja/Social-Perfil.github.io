@@ -1,0 +1,82 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background: linear-gradient(
+    40deg,
+    hsl(0, 0%, 8%) 90%,
+    rgb(255, 253, 253) 10%
+  );
+}
+
+main {
+  padding: 0 20px;
+  margin: 20% auto;
+}
+
+.ContainerBio {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.Avatar {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.NombrePerson {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.UbiPerson {
+  text-align: center;
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.BioPerson {
+  color: rgb(216, 215, 215);
+  text-align: center;
+  font-weight: 600;
+}
+
+.ContainerRedes {
+  display: grid;
+  place-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Redes {
+  background: hsl(0, 0%, 20%);
+  padding: 15px;
+  width: 260px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.Redes:hover {
+  background-color: hsl(92, 94%, 57%);
+  color: black;
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin: 4% auto;
+  }
+
+  .ContainerBio {
+    margin: 0 auto;
+    width: 350px;
+  }
+}
